@@ -60,7 +60,14 @@ public class App {
 
 		BsttoSkew(node);
 		traverseSkew(headNode);
+		System.out.println();
+		
+		 int[] arr = { 10, 30, 55, 50, 60 };
+		    int n = arr.length;
+		     Sorting obr = new Sorting();
+		    obr.quickSort(arr, 0, n - 1);
+		    System.out.println("Sorted Tree will be: ");
+		    obr.printArray(arr, n);
 
 	}
 }
-
